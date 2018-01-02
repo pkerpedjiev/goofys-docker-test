@@ -1,0 +1,1 @@
+goofys --profile default -o allow_other higlass:data mount

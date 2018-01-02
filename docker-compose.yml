@@ -1,0 +1,7 @@
+version: '3'
+services: 
+    web:
+        build: .
+        volumes:
+            - /Users/peter/projects/goofys-docker-test/mount/:/data
+        command: "ls /data"
